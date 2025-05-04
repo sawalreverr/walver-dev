@@ -1,11 +1,9 @@
 <script setup>
 import { Icon } from '@iconify/vue'
-import { storeToRefs } from 'pinia'
 import { useAboutStore } from '@/stores/aboutStore'
 import PageLayout from '@/components/PageLayout.vue'
 
-const aboutStore = useAboutStore()
-const { experiences, education, background } = storeToRefs(aboutStore)
+const { experiences, education, background } = useAboutStore()
 </script>
 
 <template>

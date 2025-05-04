@@ -32,8 +32,4 @@ export const useContactStore = defineStore('contact', {
             }
         ]
     }),
-
-    getters: {
-        getContactMethods: (state) => state.contactMethods
-    }
 })

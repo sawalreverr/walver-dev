@@ -37,10 +37,4 @@ export const useAboutStore = defineStore('about', {
             openToWork: "Currently, I'm open to both internship and full-time opportunities where I can contribute my skills while continuing to grow as a developer. I'm eager to join a team where I can make meaningful contributions and learn from experienced professionals."
         }
     }),
-
-    getters: {
-        getExperiences: (state) => state.experiences,
-        getEducation: (state) => state.education,
-        getBackground: (state) => state.background
-    }
 })

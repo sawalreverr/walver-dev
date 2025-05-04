@@ -4,8 +4,7 @@ import { storeToRefs } from 'pinia'
 import { useProjectStore } from '@/stores/projectStore'
 import PageLayout from '@/components/PageLayout.vue'
 
-const projectStore = useProjectStore()
-const { projects } = storeToRefs(projectStore)
+const { projects } = storeToRefs(useProjectStore())
 
 const sortedProjects = computed(() => {
   return [...projects.value].sort((a, b) => b.id - a.id)

@@ -51,11 +51,4 @@ export const useProjectStore = defineStore('project', {
             },
         ]
     }),
-
-    getters: {
-        getAllProjects: (state) => state.projects,
-        getProjectsByTag: (state) => (tag) => {
-            return state.projects.filter(project => project.tags.includes(tag))
-        }
-    }
 })

@@ -1,4 +1,5 @@
 <script setup>
+import { Icon } from '@iconify/vue'
 import { storeToRefs } from 'pinia'
 import { useAboutStore } from '@/stores/aboutStore'
 import PageLayout from '@/components/PageLayout.vue'
@@ -33,7 +34,7 @@ const { experiences, education, background } = storeToRefs(aboutStore)
 
     <div class="mb-12">
       <h2 class="text-2xl font-bold mb-6 flex items-center">
-        <span class="mr-3 icon-[pajamas--work]" />
+        <Icon class="mr-3" icon="pajamas:work" />
         Experience
       </h2>
 
@@ -73,7 +74,7 @@ const { experiences, education, background } = storeToRefs(aboutStore)
 
     <div>
       <h2 class="text-2xl font-bold mb-6 flex items-center">
-        <span class="mr-3 icon-[mdi--education-outline]" />
+        <Icon class="mr-3" icon="mdi:education-outline" />
         Education
       </h2>
 

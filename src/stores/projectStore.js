@@ -47,7 +47,7 @@ export const useProjectStore = defineStore('project', {
                 description: "A personal portfolio website showcasing my projects.",
                 image: portfolioImage,
                 tags: ["Vue", "Tailwind CSS", "DaisyUI"],
-                link: "https://github.com/sawalreverr/did-a-analisis",
+                link: "https://github.com/sawalreverr/walver-dev",
             },
         ]
     }),

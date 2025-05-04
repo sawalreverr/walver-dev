@@ -1,4 +1,5 @@
 <script setup>
+import { Icon } from '@iconify/vue'
 import { useContactStore } from '@/stores/contactStore'
 import PageLayout from '@/components/PageLayout.vue'
 
@@ -25,7 +26,7 @@ const contactStore = useContactStore()
         class="flex items-center p-3 bg-base-200 rounded-lg border border-base-300 hover:bg-base-300 transition-colors"
       >
         <div class="flex items-center justify-center w-10 h-10 flex-shrink-0">
-          <span :class="method.icon" class="w-8 h-8"></span>
+          <Icon class="w-8 h-8" :icon="method.icon" />
         </div>
 
         <div class="ml-4 min-w-0">

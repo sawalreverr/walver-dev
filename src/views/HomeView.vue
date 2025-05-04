@@ -6,7 +6,7 @@
       <nav class="py-10">
         <div class="flex items-center gap-2 w-full lg:w-1/2">
           <img
-            src="@/assets/images/logo.png"
+            src="@/assets/images/logo-catpuccin.png"
             alt="Walver Logo"
             class="w-12 h-12 transition-transform duration-700 hover:scale-110"
           />

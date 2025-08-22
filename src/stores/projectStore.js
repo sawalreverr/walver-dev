@@ -5,6 +5,7 @@ import recythingImage from '@/assets/images/projects/recything.png'
 import planitoriumImage from '@/assets/images/projects/planitorium.png'
 import sentimentAnalysisImage from '@/assets/images/projects/did-a-analisis.png'
 import portfolioImage from '@/assets/images/projects/portfolio.png'
+import alfarabiImage from '@/assets/images/projects/al-farabi.png'
 
 export const useProjectStore = defineStore('project', {
     state: () => ({
@@ -48,6 +49,14 @@ export const useProjectStore = defineStore('project', {
                 image: portfolioImage,
                 tags: ["Vue", "Tailwind CSS", "DaisyUI"],
                 link: "https://github.com/sawalreverr/walver-dev",
+            },
+            {
+                id: 6,
+                title: "Al-Farabi - Frontend",
+                description: "Developed a frontend application for the Muttaqin Al-Farabi Education Foundation that handles the new student registration system and school information.",
+                image: alfarabiImage,
+                tags: ["Vue", "Tailwind CSS", "DaisyUI"],
+                link: "https://github.com/sawalreverr/al-farabi-frontend",
             },
         ]
     }),

@@ -33,7 +33,7 @@ export const useAboutStore = defineStore('about', {
         background: {
             name: "Muhammad Shahwal Ramadhan Boger",
             location: "Medan, Indonesia",
-            summary: "fresh graduate in Informatics Engineering from Mikroskil University with a strong passion for Software Engineering, Back-end Development, and Cyber Security. Highly adaptable, detail-oriented, and a collaborative team player. Experienced in building scalable mobile and back-end solutions, with a strong foundation in problem-solving and system architecture.",
+            summary: "fresh graduate in Informatics Engineering from Mikroskil University with a strong passion for Software Engineering, Back-end Development, and Cyber Security. Enthusiastic learner with foundational skills gained through personal and academic projects in mobile and back-end development, along with a keen interest in problem-solving and system design.",
             openToWork: "Currently, I'm open to both internship and full-time opportunities where I can contribute my skills while continuing to grow as a developer. I'm eager to join a team where I can make meaningful contributions and learn from experienced professionals."
         }
     }),
